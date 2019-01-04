@@ -1,5 +1,10 @@
 # Heroku-memo
 
+## 好文記錄
+
+- [用 Heroku 部署網站 from djangogirlstaipei](http://djangogirlstaipei.herokuapp.com/tutorials/deploy-to-heroku/?os=windows)
+
+
 ## 基本操作 - 建立一個新的APP
 
 可以參考[這邊](https://devcenter.heroku.com/articles/creating-apps)
