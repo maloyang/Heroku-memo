@@ -60,7 +60,7 @@ To https://git.heroku.com/my-webapi.git
 ## 如果換一台電腦要進行剛剛的專案，但電腦是沒有存在此專案
 
 - 先安裝git
-  - 一樣要像前面下指令：`git config --global user.email "you@example.com"` 和 `git config --global user.name "Your Name"`+
+  - 一樣要像前面下指令：`git config --global user.email "you@example.com"` 和 `git config --global user.name "Your Name"`
   
   
 - 再安裝heroku tool belt
@@ -69,7 +69,7 @@ To https://git.heroku.com/my-webapi.git
 
 
 - 把專案clone回來
-  - `heroku git:clone -a mk-digital-service`
+  - `heroku git:clone -a my-webapi`
 
 
 - 程式編輯好後，再使用以下指令就可以再push回傳
