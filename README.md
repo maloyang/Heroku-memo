@@ -78,3 +78,19 @@ $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
 ```
+
+
+## 時區設定
+因為Heroku的預設時間為UTC時間，因此我在台灣上傳IoT的資料時，heroku上因為時區不同，要進行「找出今天的資料」時，會shift 8小時，造成我下午4點以後無法找今天資料的情形…
+
+- [參考文章](https://blog.niclin.tw/2016/09/19/%E5%A6%82%E4%BD%95%E5%9C%A8-heroku-%E4%B8%8A%E8%A8%AD%E5%AE%9A%E6%99%82%E5%8D%80/)
+- 下指令： `heroku config:add TZ="Asia/Taipei"`
+  - 下完指令後會變更時區，並進一個版次
+  - 用localtime, gmtime取回來如下：
+  ```
+  {
+    "localtime": "2019-04-08 11:13:17",
+    "result": "OK",
+    "time": "2019-04-08 03:13:17"
+  }
+  ```
