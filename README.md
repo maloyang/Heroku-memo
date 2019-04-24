@@ -94,3 +94,10 @@ $ git push heroku master
     "time": "2019-04-08 03:13:17"
   }
   ```
+
+## 計費
+目前有個projcet開啟hobby的dyno，原來只有一個web在跑，開始費收每個月7USD的費用，在說明文件上寫可以跑10個process，我以為是10個process共7USD，結果是…，我加入一個clock的worker要啟用，就要再加入7USD才行!! 收費變成如下
+
+- web: a hobby dyno, $7 USD
+- clock: a hobby dyno, $7 USD
+- total: $14 USD / month
