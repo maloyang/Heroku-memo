@@ -9,3 +9,7 @@
 
 - ref: https://stackoverflow.com/questions/12634447/running-heroku-background-tasks-with-only-1-web-dyno-and-0-worker-dynos
 - ref2: https://github.com/mengfeng/zjobs
+
+## 排程相關用法
+
+- https://apscheduler.readthedocs.io/en/latest/modules/triggers/cron.html
