@@ -4,6 +4,8 @@
 
 - [用 Heroku 部署網站 from djangogirlstaipei](http://djangogirlstaipei.herokuapp.com/tutorials/deploy-to-heroku/?os=windows)
 
+- [看這個好像有機會改成非80 port，要再試試](https://andyyou.github.io/2016/10/31/process-types-and-profile/)
+
 
 ## 基本操作 - 建立一個新的APP
 
