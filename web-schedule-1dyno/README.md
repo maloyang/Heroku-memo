@@ -6,3 +6,6 @@
 - 本來web的服務是使用 app.run() 來執行… 但web有起來，schedule卻不會動，不知道是怎麼了，明明在log中有看到另一個worker啟動了!
 
 ## 這樣就可以省掉一個dyno的費用，只要花一半的錢就可以同時有一個schedule的服務
+
+- ref: https://stackoverflow.com/questions/12634447/running-heroku-background-tasks-with-only-1-web-dyno-and-0-worker-dynos
+- ref2: https://github.com/mengfeng/zjobs
