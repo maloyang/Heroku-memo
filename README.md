@@ -97,6 +97,12 @@ $ git push heroku master
   }
   ```
 
+## 遠端執行heroku linux指令
+我是因為pymongo的部份程式一直有問題，查到後來才發現可能是因為版本不一樣，因此找這方法 `heroku run "pip freeze"` 來取得目前所有python package的版次，果然由 2.7.2 --> 2.9.0 後多了retry-write的參數預設為True，我用的DB沒支援，所以資料寫入失敗…
+
+- 格式為 `heroku run "linux command"` 很方便好用
+
+
 ## 計費
 目前有個projcet開啟hobby的dyno，原來只有一個web在跑，開始費收每個月7USD的費用，在說明文件上寫可以跑10個process，我以為是10個process共7USD，結果是…，我加入一個clock的worker要啟用，就要再加入7USD才行!! 收費變成如下
 
